@@ -5,7 +5,7 @@
   "author": "Jimmy Shimizu <jimmy@shimizu.se>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jishi/node-sonos-http-api.git"
+    "url": "https://github.com/jishi/sonos-event-stub.git"
   },
   "dependencies": {
     "sonos-discovery": "https://github.com/jishi/node-sonos-discovery/archive/0.15.3.tar.gz"

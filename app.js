@@ -17,8 +17,8 @@ discovery.on('topology-change', function () {
   if (coordinator)
     coordinator.removeListener('transport-state', transportChangeHandler);
 
-  console.log('fetching player Office');
-  var player = discovery.getPlayer('Office');
+  console.log('fetching player', roomName);
+  var player = discovery.getPlayer(roomName);
   coordinator = player.coordinator;
   coordinator.on('transport-state', transportChangeHandler);
 });
